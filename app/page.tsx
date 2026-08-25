@@ -280,7 +280,10 @@ export default function Home() {
         <Flower className="reveal-flower one" />
         <Flower className="reveal-flower two" />
         <p className="reveal-line" data-reveal>chúc mừng sinh nhật</p>
-        <h2 id="reveal-title" data-reveal>TRỊNH PHƯƠNG<br />QUYÊN</h2>
+        <h2 id="reveal-title" data-reveal>
+          <span>TRỊNH PHƯƠNG</span>
+          <span>QUYÊN</span>
+        </h2>
         <p className="reveal-date" data-reveal>25.08</p>
         <div className="reveal-heart" data-reveal>♡</div>
       </section>
@@ -290,9 +293,7 @@ export default function Home() {
         <p className="script" data-reveal>đây là ngày của Út</p>
         <h2 id="message-title" data-reveal>Hôm nay là<br /><em>ngày của Út.</em></h2>
         <p className="message-desc" data-reveal>
-          Mong bé sẽ có thật nhiều niềm vui,<br />
-          thật nhiều tiếng cười, và thật nhiều điều dễ thương<br />
-          tìm đến với bé.
+          Mong bé sẽ có thật nhiều niềm vui, thật nhiều tiếng cười, và thật nhiều điều dễ thương tìm đến với bé.
         </p>
         <button className="letter-button" onClick={() => setLetterOpen(true)} data-reveal>
           Mở thư của anh 3 <span>💌</span>
@@ -342,7 +343,10 @@ export default function Home() {
       <section className="wish-section" aria-labelledby="wish-title">
         <div className="wish-inner">
           <p className="wish-intro" data-reveal>Nếu hôm nay được ước một điều...</p>
-          <h2 id="wish-title" data-reveal>thì mong Út Quyên<br /><em>sẽ luôn hạnh phúc.</em></h2>
+          <h2 id="wish-title" data-reveal>
+            <span>thì mong Út Quyên</span>
+            <em>sẽ luôn hạnh phúc.</em>
+          </h2>
         </div>
       </section>
 
@@ -356,7 +360,9 @@ export default function Home() {
         <h2 id="final-title" data-reveal>Happy Birthday</h2>
         <p className="final-name" data-reveal>{birthday.displayName}</p>
         <p className="final-date" data-reveal>25 · 08</p>
-        <p className="final-note" data-reveal>Tuổi mới thật nhiều niềm vui và bình an nhé Út. <span>♡</span></p>
+        <p className="final-note" data-reveal>
+          Tuổi mới thật nhiều niềm vui và bình an nhé Út.&nbsp;<span>♡</span>
+        </p>
       </section>
 
       {/* FOOTER */}

@@ -1,0 +1,4 @@
+{"timestamp":"00:00:00.562","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:56.357","source":"Server","level":"LOG","message":"✓ Compiled in 54ms"}
+{"timestamp":"00:01:09.032","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"00:02:03.553","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}

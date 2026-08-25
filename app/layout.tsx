@@ -1,30 +1,31 @@
 import type { Metadata, Viewport } from 'next';
-import { Cormorant_Garamond, Manrope, Lora } from 'next/font/google';
+import { Playfair_Display, Plus_Jakarta_Sans, Dancing_Script } from 'next/font/google';
 import './globals.css';
 
-const serif = Cormorant_Garamond({
+const serif = Playfair_Display({
   variable: '--font-serif',
+  subsets: ['latin', 'vietnamese'],
+  weight: ['400', '500', '600', '700', '800'],
+  style: ['normal', 'italic'],
+});
+
+const sans = Plus_Jakarta_Sans({
+  variable: '--font-sans',
   subsets: ['latin', 'vietnamese'],
   weight: ['400', '500', '600', '700'],
 });
 
-const sans = Manrope({
-  variable: '--font-sans',
-  subsets: ['latin', 'vietnamese'],
-  weight: ['400', '500', '600'],
-});
-
-const script = Lora({
+const script = Dancing_Script({
   variable: '--font-script',
   subsets: ['latin', 'vietnamese'],
-  weight: ['400', '500'],
-  style: ['italic'],
+  weight: ['500', '600', '700'],
 });
 
 export const viewport: Viewport = {
   themeColor: '#e9a7b0',
   width: 'device-width',
   initialScale: 1,
+  viewportFit: 'cover',
 };
 
 export const metadata: Metadata = {
@@ -46,8 +47,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi">
-      <body className={`${serif.variable} ${sans.variable} ${script.variable}`}>
+    <html lang="vi" suppressHydrationWarning>
+      <body className={`${serif.variable} ${sans.variable} ${script.variable}`} suppressHydrationWarning>
         {children}
       </body>
     </html>

@@ -2,12 +2,14 @@
   "pages": {},
   "app": {
     "[project]/app/page": [
-      "static/media/d0b60be57f16ee32-s.p.0m2lc_66fsc~9.woff2",
-      "static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2",
-      "static/media/bfc7db5c00d21bc5-s.p.0dyk20wuvya7a.woff2",
-      "static/media/a343f882a40d2cc9-s.p.0kho-wj7-y-w1.woff2",
-      "static/media/3adc3f408d8054fb-s.p.0mslr.w4_87j..woff2",
-      "static/media/5e5dfa9e86f764b8-s.p.0o9~3wzuvo.a_.woff2"
+      "static/media/391e53907fa6d8ec-s.p.09se41kx.zlna.woff2",
+      "static/media/70e3db2de7f94926-s.p.0~0iy9faq3424.woff2",
+      "static/media/14e23f9b59180572-s.p.08.c8psu~gif9.woff2",
+      "static/media/2a65768255d6b625-s.p.14by5b4al-y~f.woff2",
+      "static/media/e629b5bc06499d58-s.p.0b_~8bw~gzh90.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.0eehd8tgys7nv.woff2",
+      "static/media/32fe63294b6cd18c-s.p.090h5ho-armea.woff2",
+      "static/media/406d3fc8d5ec9f59-s.p.06~5xv2ritwv5.woff2"
     ]
   },
   "appUsingSizeAdjust": true,
